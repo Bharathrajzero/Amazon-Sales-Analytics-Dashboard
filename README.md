@@ -167,14 +167,10 @@ This project is developed for learning, portfolio, and personal use. Feel free t
 
 GitHub: https://github.com/Bharathrajzero
 
-**Built with ❤️ using Flask, Pandas & Chart.js**
-
-Amazon Sales Analytics Dashboard
-
 ---
 
 ## 📝 License
 
-This project is licensed under the MIT License © 2026 Bharath Raj.
+This project is licensed under the MIT License © 2026 Bharath Raj, AlphaGroup 
 
 ---
