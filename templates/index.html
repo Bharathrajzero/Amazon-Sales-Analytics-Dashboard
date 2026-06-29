@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Amazon Sales Analytics Dashboard | Bharath Raj</title>
+
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+</head>
+
+<body>
+
+    <!-- Header -->
+
+    <header class="dashboard-header">
+
+        <div class="header-left">
+
+            <img src="{{ url_for('static', filename='images/amazon-logo.png') }}"
+                alt="Amazon Logo"
+                class="logo">
+
+            <div>
+
+                <h1>Amazon Sales Dashboard</h1>
+
+                <p>Real-Time Sales Analytics & Business Intelligence Dashboard</p>
+
+            </div>
+
+        </div>
+
+    </header>
+
+    <!-- Summary Cards -->
+
+    <section class="cards">
+
+        <div class="card">
+            <h3>Total Sales</h3>
+            <h2 id="total-sales">₹0</h2>
+        </div>
+
+        <div class="card">
+            <h3>Total Profit</h3>
+            <h2 id="total-profit">₹0</h2>
+        </div>
+
+        <div class="card">
+            <h3>Total Orders</h3>
+            <h2 id="total-orders">0</h2>
+        </div>
+
+        <div class="card">
+            <h3>Average Order Value</h3>
+            <h2 id="average-order">₹0</h2>
+        </div>
+
+    </section>
+
+    <!-- Charts -->
+
+    <section class="charts">
+
+        <div class="chart-card">
+            <h3>Monthly Sales</h3>
+            <canvas id="monthlyChart"></canvas>
+        </div>
+
+        <div class="chart-card">
+            <h3>Sales by Category</h3>
+            <canvas id="categoryChart"></canvas>
+        </div>
+
+        <div class="chart-card">
+            <h3>Profit by Category</h3>
+            <canvas id="profitChart"></canvas>
+        </div>
+
+        <div class="chart-card">
+            <h3>Top States</h3>
+            <canvas id="stateChart"></canvas>
+        </div>
+
+        <div class="chart-card">
+            <h3>Top Products</h3>
+            <canvas id="productChart"></canvas>
+        </div>
+
+        <div class="chart-card">
+            <h3>Sales by Payment Method</h3>
+            <canvas id="segmentChart"></canvas>
+        </div>
+
+    </section>
+
+    <!-- Table -->
+
+    <section class="table-section">
+
+        <div class="table-card">
+
+            <h3>Top Customers</h3>
+
+            <table>
+
+                <thead>
+
+                    <tr>
+                        <th>Customer</th>
+                        <th>Total Sales</th>
+                    </tr>
+
+                </thead>
+
+                <tbody id="customer-table"></tbody>
+
+            </table>
+
+        </div>
+
+    </section>
+
+    <!-- Footer -->
+
+    <footer>
+
+        <p>Built with ❤️ using Flask, Pandas & Chart.js</p>
+
+        <p><strong>Developed by Bharath Raj</strong></p>
+
+        <p>
+            GitHub :
+            <a href="https://github.com/bharathrajzero" target="_blank">
+                github.com/bharathrajzero
+            </a>
+        </p>
+
+    </footer>
+
+    <script src="{{ url_for('static', filename='js/dashboard.js') }}"></script>
+
+</body>
+
+</html>
