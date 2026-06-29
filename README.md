@@ -155,7 +155,26 @@ data/
 - User authentication
 
 ---
+## 📚 Learning & Usage
 
-## License
+This project is developed for learning, portfolio, and personal use. Feel free to explore, modify, and enhance it for educational purposes.
 
-This project is available for learning and personal use.
+---
+
+## 👨‍💻 Author
+
+**Bharath Raj**
+
+GitHub: https://github.com/Bharathrajzero
+
+**Built with ❤️ using Flask, Pandas & Chart.js**
+
+Amazon Sales Analytics Dashboard
+
+---
+
+## 📝 License
+
+This project is licensed under the MIT License © 2026 Bharath Raj.
+
+---
