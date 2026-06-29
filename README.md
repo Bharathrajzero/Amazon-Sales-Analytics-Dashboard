@@ -4,6 +4,16 @@ A web-based dashboard for analyzing Amazon sales data using Flask, Pandas, and C
 
 ---
 
+## Screenshots
+<img width="1920" height="1079" alt="image" src="https://github.com/user-attachments/assets/3d73618f-e30d-4ac0-9b0d-e0c83953487a" />
+
+---
+<img width="1920" height="1079" alt="image" src="https://github.com/user-attachments/assets/6720f3e2-ffe9-486d-bd81-ab8afb8cd834" />
+
+---
+<img width="1920" height="1079" alt="image" src="https://github.com/user-attachments/assets/4d4639a1-cabd-41f7-be7b-7502afd6d632" />
+
+---
 ## Features
 
 - Dashboard summary
